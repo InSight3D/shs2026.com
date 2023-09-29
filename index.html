@@ -26,10 +26,32 @@
 
   <div id="mc_embed_shell">
 	<link href="assets/classic-061523.css" rel="stylesheet" type="text/css">
-  
+  <style>
+	.company-box {
+            position: fixed;
+            bottom: 10px; /* Adding some space from the bottom */
+            left: 10px;  /* Adding some space from the left */
+            background-color: #333;
+            color: #fff;
+            padding: 12px 20px; /* More padding */
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for a lift effect */
+            font-family: Arial, sans-serif; /* Modern font */
+            z-index: 9999;
+        }
+	.company-box a {
+		color: #fff;
+		text-decoration: none; /* Removes underline */
+	}
+
+	.company-box a:hover {
+		text-decoration: underline; /* Adds underline on hover */
+	}
+  </style>
   
 </head>
 <body>
+	
   <!-- ticker -->
 <section> 
 
@@ -328,7 +350,9 @@
     </div>
 </section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
-  
+<div class="company-box">
+	Hosted by <a href="https://www.insight3d.tech" target="_blank">InSight3D</a>
+</div>
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
   </body>
